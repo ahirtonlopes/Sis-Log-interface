@@ -1,0 +1,318 @@
+
+body {
+
+    background : #000000 url(images/sl.jpg) top center no-repeat fixed;
+   
+    /*background: #D7D7BD;*/
+	margin: 1px 0 3px 0;
+	padding: 0;
+	/*height: 700px;*/
+	text-align: justify;
+	line-height: 25px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #3C3C37;
+
+
+}
+
+h1, h2, h3 {
+	padding: 0;
+	margin: 0;
+	text-transform: lowercase;
+	color: #005880;
+}
+
+p, ul, ol {
+	margin-bottom: 1.5em;
+}
+
+ul {
+	margin: 0px;
+	padding: 0;
+}
+
+a {
+	color: #005880;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #005880;
+}
+
+#header {
+
+	width: 768px;
+	height: 156px;
+	margin: -25px auto;
+	background: url(images/toposislog5.png) no-repeat left top;
+}
+
+
+
+#header h1, #header h2 {
+	margin: 0px;
+	padding: 0;
+	font-weight: normal;
+	color: #000000;
+}
+
+#header h1 {
+	padding: 90px 0px 10px 90px;
+	font-size: 3em;
+}
+
+#header h2 {
+	margin-top: -8px;
+	padding: 0px 0px 0px 92px;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/** Style for menu starts here */
+#header-wrapper {
+}
+
+
+/* Menu */
+
+#menu {
+
+    width: 768px;
+	height: 35px;
+	margin: 20px auto;
+    float: left;
+    background: url(images/img03.jpg) repeat-x left top;
+    
+
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	height: 35px;
+	display: block;
+	float: left;
+	padding: 12px 25px 0px 25px;
+	background: url(images/img10.jpg) no-repeat right 5px;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	text-decoration: none;
+	font: bold 11px Arial, Helvetica, sans-serif;
+
+	color: #FFFFFF;
+}
+
+#menu a:hover { color: #D7D7BD }
+
+#menu .current_page_item {
+	margin: 0px;
+	color: #FFFFFF;
+}
+
+#wrapper {
+    position:absolute;
+	width: 768px;
+    margin: 0px auto;
+    height: 900px;
+    left: 18%;
+    top:0.5%;
+    /*background: #FFFFFF;*/
+    background : #000000 url(images/fundo.png) repeat-y left top;
+	padding: 25px;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+    opacity:0.60;
+    -moz-opacity: 0.60;
+    -khtml-opacity: .60;
+
+
+}
+
+
+
+
+
+#conteudo{
+    position: absolute;
+    left:20%;
+    top:4.5%;
+    
+}
+
+
+
+#content {
+	width: 768px;
+    /*height: 700px;*/
+	margin: 0px auto;
+	padding-top: 0px;
+}
+
+#content h2 {
+	text-transform: capitalize;
+	font-size: 1.5em;
+	font-weight: normal;
+	border-bottom: 1px #CCCCCC dashed;
+}
+
+#content p {
+}
+
+#left {
+	float: left;
+	width: 723px;
+    height:auto;
+	padding-left: 25px;
+	margin-bottom: 30px;
+}
+
+#left ul {
+	margin: 0 3em;
+	padding: 0;
+	list-style: none;
+}
+
+#left li {
+	margin-bottom: 10px;
+	padding-left: 10px;
+	line-height: 17px;
+}
+
+#left .post {
+	margin-bottom: 20px;
+}
+
+#right {
+	float: right;
+	width: 240px;
+	margin-bottom: 20px;
+	padding-right: 20px;
+}
+
+
+#right ul {
+	margin: 14px 0 0 0;
+	padding: 0;
+	list-style: none;
+}
+
+#right li {
+	padding-left: 10px;
+}
+
+
+#footer {
+	clear: both;
+	width: 768px;
+	height: 35px;
+	margin: 0px auto;
+	padding-top: 10px;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #E5E5CC;
+}
+
+#footer .copyright {
+	float: left;
+	margin: 0px;
+	padding-left: 10px;
+    padding-top: -100px;
+	text-align: left;
+}
+
+#footer .links {
+	float: left;
+	margin: 0px;
+	padding-right: 20px;
+	text-align: center;
+}
+
+#footer .css {
+	padding-left: 25px;
+	background: url(images/logo_finep_novo2.gif) no-repeat left 50%;
+}
+
+#footer .xhtml {
+	padding-left: 25px;
+	background: url(images/ufma.jpg) no-repeat left 50%;
+}
+
+#footer .mecanet{
+    padding-left: 25px;
+	background: url(images/mecanet.png) no-repeat left 50%;
+}
+
+#footer a {
+	color: #E5E5CC;
+}
+
+.iframe{
+    float: right;
+}
+
+.entry {
+	background: url(images/img12.gif) repeat-y left top;
+	text-align: center;
+	color: #848FA3;
+}
+
+.entrybgtop {
+	background: url(images/img11.gif) no-repeat left top;
+
+}
+
+.entrybgbtm {
+	padding: 20px;
+	background: url(images/img13.gif) no-repeat left bottom;
+}
+
+.meio {
+	background: url(images/img21.gif) repeat-y left top;
+	text-align: center;
+	color: #848FA3;
+
+}
+
+.comeco {
+	background: url(images/img20.gif) no-repeat left top;
+
+}
+
+.fim {
+	padding: 20px;
+	background: url(images/img22.gif) no-repeat left bottom;
+
+}
+
+.centroinicio {
+    background: url(images/topo_centro.gif) no-repeat left top;
+    }
+
+.centromeio{
+    background: url(images/meio_centro.gif) repeat-y left top;
+    text-align: center;
+    color: #848FA3;
+ }
+
+.centrofim{
+    padding: 20px;
+    background: url(images/fim_centro.gif)  no-repeat left bottom;
+}
+
+.slideshow { /*height: 232px; width: 232px;*/ margin: auto }
+
+.slideshow img { padding: 5px; border: 1px solid #ccc; background-color: #eee; }
+
+
+
